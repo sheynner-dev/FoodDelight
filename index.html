@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodDelight - Restaurante Gourmet</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading" id="loading">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="#home" class="logo">FoodDelight</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Bienvenidos a FoodDelight</h1>
+            <p>Donde cada plato cuenta una historia deliciosa</p>
+            <a href="#menu" class="cta-button">Ver Menú</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2 class="section-title">Sobre Nosotros</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Una Experiencia Gastronómica Única</h3>
+                <p>En FoodDelight, nos apasiona crear momentos inolvidables a través de la excelencia culinaria. Desde 2010, hemos sido el destino preferido para los amantes de la buena comida.</p>
+                <p>Nuestros chefs combinan técnicas tradicionales con innovación moderna para ofrecerte platos que deleitan todos tus sentidos. Utilizamos solo los ingredientes más frescos y de la más alta calidad.</p>
+                <p>Ya sea que busques una cena romántica, una celebración familiar o una reunión de negocios, FoodDelight es el lugar perfecto para cada ocasión especial.</p>
+            </div>
+            <div class="about-image">
+                <div style="width: 100%; height: 400px; background: linear-gradient(135deg, #ff6b35, #f7931e); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: white; font-size: 5rem;">
+                    🍽️
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <h2 class="section-title">Nuestro Menú</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <div class="menu-item-image">🥗</div>
+                <div class="menu-item-content">
+                    <h3>Ensalada Mediterránea</h3>
+                    <p>Fresca mezcla de vegetales, queso feta, aceitunas y aderezo especial</p>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-image">🍝</div>
+                <div class="menu-item-content">
+                    <h3>Pasta Alfredo</h3>
+                    <p>Fettuccine en cremosa salsa alfredo con pollo a la parrilla</p>
+                    <span class="price">$18.99</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-image">🥩</div>
+                <div class="menu-item-content">
+                    <h3>Filete Premium</h3>
+                    <p>Corte premium de res con guarnición de vegetales asados</p>
+                    <span class="price">$32.99</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-image">🍕</div>
+                <div class="menu-item-content">
+                    <h3>Pizza Artesanal</h3>
+                    <p>Pizza de masa delgada con ingredientes frescos y queso mozzarella</p>
+                    <span class="price">$15.99</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-image">🍤</div>
+                <div class="menu-item-content">
+                    <h3>Camarones al Ajillo</h3>
+                    <p>Camarones jumbo salteados con ajo, vino blanco y hierbas</p>
+                    <span class="price">$24.99</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-image">🍰</div>
+                <div class="menu-item-content">
+                    <h3>Cheesecake de Frutos Rojos</h3>
+                    <p>Cremoso cheesecake con compota de frutos rojos frescos</p>
+                    <span class="price">$8.99</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2 class="section-title">Nuestros Servicios</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🎉</div>
+                <h3>Eventos Especiales</h3>
+                <p>Organizamos todo tipo de eventos, desde bodas hasta reuniones corporativas con menús personalizados.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🚚</div>
+                <h3>Delivery</h3>
+                <p>Disfruta de nuestros platos en la comodidad de tu hogar con nuestro servicio de entrega rápida.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">👨‍🍳</div>
+                <h3>Chef a Domicilio</h3>
+                <p>Nuestros chefs pueden preparar una experiencia gastronómica única directamente en tu casa.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🎂</div>
+                <h3>Catering</h3>
+                <p>Servicio de catering completo para hacer de tu evento algo inolvidable.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Contáctanos</h2>
+        <div class="contact-content">
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Enviar Mensaje</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>Información de Contacto</h3>
+                <div class="info-item">
+                    <i>📍</i>
+                    <div>
+                        <strong>Dirección</strong><br>
+                        Av. Principal 123, Ciudad
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i>📞</i>
+                    <div>
+                        <strong>Teléfono</strong><br>
+                        +1 (555) 123-4567
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i>✉️</i>
+                    <div>
+                        <strong>Email</strong><br>
+                        info@fooddelight.com
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i>🕒</i>
+                    <div>
+                        <strong>Horario</strong><br>
+                        Lun-Dom: 12:00 PM - 11:00 PM
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <h3>FoodDelight</h3>
+            <p>&copy; 2024 FoodDelight. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook">📘</a>
+                <a href="#" aria-label="Instagram">📷</a>
+                <a href="#" aria-label="Twitter">🐦</a>
+                <a href="#" aria-label="YouTube">📺</a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/funciones.js"></script>
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">↑</button>
+</body>
+</html>
