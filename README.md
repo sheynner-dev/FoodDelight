@@ -1,80 +1,49 @@
+## ⚙️ Modificaciones Realizadas por Sheynner
+
+El desarrollador **Sheynner** realizó mejoras clave en el proyecto **FoodDelight**, enfocadas en la presentación visual, la adaptabilidad del diseño y la documentación técnica.
 
 ---
 
-## 🧩 Secciones del Sitio
+### 🛠️ Archivos Modificados
 
-- **Header**: Navegación fija con logo animado y menú hamburguesa
-- **Hero Section**: Bienvenida con mensaje inspirador y botón CTA
-- **Sobre Nosotros**: Historia y filosofía del restaurante
-- **Menú**: Grid de 6 platos destacados con imágenes, descripciones y precios
-- **Servicios**: Tarjetas con íconos emoji para 4 servicios principales
-- **Contacto**: Formulario con validación + información de contacto
-- **Footer**: Redes sociales y derechos reservados
+#### 📄 `index.html`
+- Se reemplazaron los placeholders por **imágenes reales** de los platos del menú.
+- Se actualizaron los atributos `alt` para mejorar la accesibilidad y el SEO.
+- Se mantuvo la estructura semántica del HTML para facilitar mantenimiento y escalabilidad.
 
----
+#### 🎨 `css/estilos.css`
+- Se agregaron estilos para que las imágenes se **adapten sin distorsión** (`object-fit: cover`).
+- Se definieron alturas uniformes para los contenedores del menú.
+- Se mejoró el diseño **responsive** con breakpoints refinados.
+- Se añadieron **animaciones sutiles** al hacer hover sobre tarjetas y botones, mejorando la experiencia visual.
 
-## 🎨 Estilos (CSS)
+#### 📝 `README.md`
+- Se documentaron las modificaciones realizadas por Sheynner.
+- Se añadió esta sección para reconocer su contribución al proyecto.
 
-- Variables CSS personalizadas para colores consistentes
-- Sistema de grid responsive
-- Animaciones suaves y transiciones
-- Efectos hover interactivos
-- Diseño mobile-first adaptable
-- Gradientes modernos y sombras
-- Pantalla de carga animada
-- Botón de scroll-to-top
-
----
-
-## ⚙️ Funcionalidades (JavaScript)
-
-- Menú hamburguesa para móviles
-- Navegación suave entre secciones
-- Validación de formularios
-- Animaciones al hacer scroll
-- Modal de reservaciones
-- Efectos parallax
-- Intersection Observer para animaciones
-- Indicador de sección activa en navegación
+#### 🖼️ `img/`
+- Se agregaron imágenes reales de los platos del menú:
+  - `ensalada-mediterranea.jpg`
+  - `pasta-alfredo.jpg`
+  - `filete-premium.jpg`
+  - `pizza-artesanal.jpg`
+  - `camarones-al-ajillo.jpg`
+  - `cheesecake-frutos-rojos.jpg`
+- Se renombraron los archivos para evitar espacios y asegurar compatibilidad multiplataforma.
 
 ---
 
-## ✨ Características Destacadas
+### ✨ Impacto de las Modificaciones
 
-### 📱 Diseño Responsivo
-- Adaptable a todos los dispositivos (móvil, tablet, desktop)
-- Breakpoint principal: `768px`
-- Grid flexible y navegación optimizada
-
-### 🧠 Interactividad
-- Animaciones CSS modernas
-- Hover en tarjetas y botones
-- Modal funcional para reservas
-- Validación de formularios en tiempo real
-
-### 🎨 Estética Moderna
-- Paleta de colores vibrantes:
-  - Primary: `#ff6b35` (Naranja vibrante)
-  - Secondary: `#f7931e` (Amarillo anaranjado)
-  - Dark: `#2c3e50` (Gris oscuro)
-  - Light: `#ecf0f1` (Gris claro)
-- Tipografía clara (`Poppins`)
-- Iconos emoji para representar platos y servicios
-- Sombras y profundidad visual
-
-### 🚀 Performance
-- Código optimizado
-- Lazy loading preparado para imágenes
-- Animaciones con `transform` (GPU aceleradas)
-- Intersection Observer para eficiencia
+- Mejora significativa en la **presentación visual** del menú.
+- Mayor **consistencia estética** entre secciones.
+- Optimización para **dispositivos móviles** y pantallas grandes.
+- Aumento en la **accesibilidad** y preparación para SEO.
+- Documentación clara para futuras colaboraciones.
 
 ---
 
-## 📬 Contacto
+## 🧑‍💻 Créditos
 
-Para sugerencias o mejoras, puedes escribir a:  
-📧 `luis@gmail.com`
-
----
-
-**© 2025 FoodDelight. Desarrollado por Luis Solano. Todos los derechos reservados.**
+**© 2025 FoodDelight. Desarrollado por Luis Solano. Todos los derechos reservados.**  
+Modificaciones visuales y de experiencia de usuario realizadas por **Sheynner**.
